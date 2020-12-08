@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+.main-container{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: hsl(185, 75%, 39%);
+    padding-top:42px ;
+    padding-bottom:205px ;
+    
+}
+.top-circle{
+   
+    position: fixed;
+    left: -2%;
+    top: -50%;
+    z-index: 1;
+}
+.bottom-circle{
+    
+    position: fixed;
+    bottom: -50%;
+    right:  1%;
+}
+.card{
+    width: 350px;
+    margin: 150px auto;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 5;
+}
+.card-img{
+    border-radius: 15px 15px 0 0;
+    
+}
+.profile-img{
+    border:solid 5px white;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+}
+.name-age{
+    margin-top:75px ;
+}
+.followers-count{
+    display: inline-block;
+    margin-right: 50px;
+}
+.likes-count{
+    display: inline-block;
+}
+.photos-count{
+    display: inline-block;
+    margin-left: 50px;
+}
+hr{
+    border-top: 0;
+}
+h4{
+    margin-bottom:5px ;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+h5{
+    margin-top: 10px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+p{
+    margin-top: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
